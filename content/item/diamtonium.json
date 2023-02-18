@@ -1,0 +1,11 @@
+{
+  "localizedName": "Diamtonium",
+  "description": "Unstable, soft, incredibly radioactive. A resolidified remnant of diamantite after being exposed to large pressure, rapid temperature changes and constant strain. [#7F001D]The World Trembles From The Strength.",
+  "charge": 0.8,
+  "radioactivity": 2.6,
+  "explosiveness": 0.5,
+  "color": "7F001D",
+  "research": {
+    "parent": "unstable-waste"
+  }
+}
