@@ -1,0 +1,47 @@
+{
+  "localizedName": "Diamantite Forge",
+  "description": "Combines Thorium and Titanium to produce, although inefficiently, Diamantite. Produces Lead as a by-product",
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+        },
+      {
+        "type": "DrawFlame",
+        "flameColor": "FFC999"
+	  }
+    ]
+  },
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 180,
+  "itemCapacity": 30,
+  "craftEffect": "instBomb",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+			"titanium/3",
+			"thorium/4"
+			]
+    }
+  },
+  "requirements": [
+    { "item": "silicon", "amount": 300 },
+    { "item": "metaglass", "amount": 70 },
+    { "item": "thorium", "amount": 250 },
+    { "item": "titanium", "amount": 300 },
+    { "item": "graphite", "amount": 440 }
+	],
+  "category": "crafting",
+  "research": "surge-smelter",
+  "outputItems": [
+    "diamantite/1",
+    "lead/2"
+ ] 
+}

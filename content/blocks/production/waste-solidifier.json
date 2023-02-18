@@ -1,0 +1,52 @@
+{
+  "localizedName": "Waste Solidifier",
+  "description": "A factory similar to the separator, made to recycle and repurpose otherwise dangerous wastes",
+	"type": "Separator",
+	"size": 2,
+	"drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+       {
+       "type": "DrawRegion"
+       },
+       {
+       "type": "DrawLiquidRegion", 
+       "drawLiquid": "unstable-waste"
+       },
+       {
+       "type": "DrawRegion",
+       "suffix": "-heat",
+       "colour": "FFB74C"
+       },
+       {
+       "type": "DrawPistons",
+       "suffix": "-piston",
+       "sinMag": 2
+       }
+    ]
+    },
+  "liquidCapacity": 20,
+	"craftTime": 10,
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"consumes": {
+		"power": 5,
+		"liquids": [
+     "unstable-waste/0.2"
+		]
+	},
+	"results": [
+  "scrap/3",
+  "diamtonium/1"
+	],
+	"requirements": [
+  "graphite/100",
+  "silicon/200",
+  "scrap/300",
+  "lead/150",
+  "copper/90"
+	],
+	"category": "crafting",
+	"research": "disassembler"
+}
