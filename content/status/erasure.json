@@ -1,1 +1,8 @@
-
+{
+   "localizedName": "Erasure.",
+   "description": "You can see your atoms decaying right in front of you.",
+   "speedMultiplier": 0.4,
+   "effect": "melting",
+   "damage": 0.6,
+   "healthMultiplier": 0.4
+}
