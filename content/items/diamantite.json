@@ -1,1 +1,11 @@
-
+{
+  "localizedName": "Diamantite",
+  "description": "Hard, crystalline, slightly radioactive. An element that was hinted of its existence in captured Crux databases, its potential is yet to be released to this world. [#AD2335]The Titans Shall Awaken.",
+  "hardness": 5,
+  "cost": 2.2,
+  "radioactivity": 0.2,
+  "color": "AD2335",
+  "research": {
+    "parent": "thorium"
+  }
+}
