@@ -1,1 +1,59 @@
-
+{
+  "localizedName": "Paradiamantite reactor",
+  "description": "Uses diamantite as a primary resource to generate power. Its attention however lies in the interesting by-product it outputs... ",
+	"type": "ConsumeGenerator",
+	"size": 6,
+	"lightColor": "FF4141",
+	"itemCapacity": 30,
+	"baseExplosiveness": 5000,
+  "explosionRadius": 480,
+  "explosionDamage": 15000,
+	"hasLiquids": true,
+	"powerProduction": 183,
+	"liquidCapacity": 35,
+  "outputLiquid": "unstable-waste/0.2", 
+  "explodeOnFull": true, 
+	"itemDuration": 600,
+	"drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+       },
+       {
+       "type": "DrawRegion",
+       "suffix": "-spinner",
+       "rotateSpeed": -22.5
+       },
+       {
+       "type": "DrawRegion",
+       "suffix": "-top"
+       },
+       {
+       "type": "DrawGlowRegion",
+       "suffix": "-light",
+       "colour": "FF4141"
+       }
+    ]
+    },
+	"consumes": {
+		"liquids": ["cryofluid/0.5"],
+		"items": ["diamantite/5"]
+	},
+	"requirements": [
+        "thorium/700",
+        "silicon/1500",
+        "diamantite/300",
+        "titanium/3000",
+        "lead/4550", 
+        "plastanium/2000",
+        "surge-alloy/800",
+        "metaglass/1000"
+    ],
+	"category": "power",
+  "loopSound": "beam",
+  "loopSoundVolume": 5,
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.5
+}
