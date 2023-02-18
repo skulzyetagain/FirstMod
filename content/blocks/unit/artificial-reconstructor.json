@@ -1,0 +1,27 @@
+{
+  "localizedName": "Artificial Reconstructor",
+  "description": "Repurposes the irregularities",
+  "type": "Reconstructor",
+  "size": 3,
+  "consumes": {
+    "power": 8,
+    "items": {
+      "items": [
+        "silicon/60",
+        "graphite/30",
+        "metaglass/60"
+			]
+    }
+  },
+  "requirements": [
+    "silicon/300",
+    "graphite/200",
+    "lead/100",
+    "spore-pod/50"
+    ],
+  "upgrades": [
+    ["Add", "Sub"]
+    ],
+  "category": "units",
+  "research": "additive-reconstructor"
+}

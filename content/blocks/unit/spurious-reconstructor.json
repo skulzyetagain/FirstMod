@@ -1,0 +1,32 @@
+{
+  "localizedName": "Spurious Reconstructor",
+  "description": "Enhances the modernised designs",
+  "type": "Reconstructor",
+  "size": 7,
+  "consumes": {
+    "power": 18,
+    "items": {
+      "items": [
+        "silicon/1000",
+        "titanium/600",
+        "plastanium/200",
+        "spore-pod/750",
+        "diamantite/40",
+        "thorium/400"
+			]
+    }
+  },
+  "requirements": [
+    "silicon/1200",
+    "plastanium/2000",
+    "lead/500",
+    "spore-pod/300",
+    "titanium/1000",
+    "thorium/445"
+    ],
+  "upgrades": [
+    ["Multi", "Div"]
+    ],
+  "category": "units",
+  "research": "exponential-reconstructor"
+}
