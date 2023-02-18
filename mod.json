@@ -1,0 +1,10 @@
+{
+  "name": "DuverxusTitans",
+  "displayName": "[cyan]Titans Awoken",
+  "author": "Duverxus/Skulz",
+  "description": "Skel hates balls",
+  "version": "0.0.1",
+  "hidden" : "false",
+  "minGameVersion": "136",
+  "dependencies": []
+}
