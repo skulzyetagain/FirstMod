@@ -1,1 +1,13 @@
-
+{
+"name": "Unstable Liquid",
+"description": "By-product of diamantite-related activities, urgent to be disposed of immediately or optionally be refined into a solid state", 
+"temperature": 0.7,
+"flammability": 0,
+"viscosity": 0.85,
+"heatCapacity": 1.2,
+"explosiveness": 4,
+"effect": "erasure",
+"color": "970928",
+"coolant": false, 
+"research": "diamantite"
+}
