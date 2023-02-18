@@ -1,1 +1,95 @@
-
+{
+  "localizedName": "Frostbite",
+  "description": "A turret that utilises a foreign method of ammunition production, giving them a freezing temperature, however this method comes at the cost of the turret freezing and thus never reaching it's full potential",
+    "type": "ItemTurret",
+    "health": 600,
+    "size": 3,
+    "reload": 15,
+    "range": 150,
+    "recoil": 2,
+  	"heatColor": "99E7FF",
+    "shake": 3,
+    "maxAmmo": 80,
+    "inaccuracy": 3,
+    "xRand": 4,
+    "ammoUseEffect": "casing2",
+    "rotateSpeed": 5,
+    "shootSound": "bang",
+        "drawer": {
+    "type": "drawTurret"
+    },
+	"ammoTypes": {
+        "titanium": {
+            "speed": 12,
+            "type":"BasicBulletType",
+            "damage": 65,
+            "lifetime": 200,
+            "splashDamageRadius": 25,
+            "splashDamage": 40,
+            "width": 10,
+            "height": 20,
+            "reflectable": true,
+            "shootEffect": "shootSmallSmoke",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosion",
+            "status": "freezing", 
+            "statusDuration":240, 
+            "ammoMultiplier": 4,
+            "pierce": false,
+            "hitSize": 4,
+            "frontColor": "99E7FF",
+            "backColor": "99E7FF"
+        },
+        "lead": {
+            "speed": 15,
+            "type":"BasicBulletType",
+            "damage": 45,
+            "lifetime": 200,
+            "width": 10,
+            "height": 20,
+            "reflectable": true,
+            "shootEffect": "shootSmallSmoke",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosion",
+            "knockback":5, 
+            "ammoMultiplier": 4,
+            "pierceMultiplier": 2,
+            "hitSize": 4,
+            "frontColor": "8c7fa9",
+            "backColor": "8c7fa9"
+        },
+        "silicon": {
+            "speed": 10,
+            "type":"BasicBulletType",
+            "damage": 40,
+            "lifetime": 240,
+            "width": 10,
+            "height": 20,
+            "reflectable": false,
+            "shootEffect": "shootSmallSmoke",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosion",
+            "ammoMultiplier": 2,
+            "reloadMultiplier":1.25,
+            "pierce": false,
+            "hitSize": 4,
+            "homingRange": 75,
+            "homingPower": 0.3,
+            "frontColor": "97999d",
+            "backColor": "97999d"
+        }
+        }, 
+    "requirements":[
+        "titanium/600",
+        "silicon/500",
+        "copper/1000", 
+        "lead/750"
+    ],
+    "consumes":{
+      "coolant":{
+        "amount": 0.5
+      } 
+    },
+    "category": "turret",
+    "research": "cyclone"
+}
