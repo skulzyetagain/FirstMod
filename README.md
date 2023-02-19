@@ -6,4 +6,4 @@ Not sure what I'm going with this other than this being my first mod and it's go
 
 Soooo, although I try, I'm sorry anyone has to see this.
 
-PS; don't use or edit my stuff without telling me before hand (Dc-@Rosa.#4774)
+PS; don't use or edit my stuff without telling me beforehand (Dc-@Rosa.#4774)
