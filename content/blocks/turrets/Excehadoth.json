@@ -116,7 +116,7 @@
     "consumes":{
       "coolant":{
         "amount": 2,
-        "coolantMultiplier": 1.2
+        "coolantMultiplier": 0.75
       }
     },
     "category": "turret",
