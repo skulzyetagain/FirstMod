@@ -1,0 +1,9 @@
+{
+  "localizedName": "Organ pod",
+  "description": "Spore pods after being exposed to harsh radiation and left to mutate, it appears that it took the shape of a previous organism... [#5B001B]Did it just move?",
+  "radioactivity": 0.1,
+  "color": "5B001B",
+  "research": {
+    "parent": "spore-pod"
+  }
+}
