@@ -82,7 +82,6 @@
         "diamtonium":{
           "speed":8,
           "type":"BasicBulletType",
-          "damage": 1500,
           "splashDamage":2500,
           "splashDamageRadius":80,
           "lifetime":200,

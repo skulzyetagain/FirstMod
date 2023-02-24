@@ -89,11 +89,11 @@
                 "fragBullet": {
                 "type": "BasicBulletType",
                 "fragAngle": 5,
+                "pierce": true,
                 "fragVelocityMin": 1,
                 "trailColor": "3F2C2F",
                 "collidesGround": true,
                 "collidesAir": true,
-		"pierce": true,
                 "sprite": "duverxustitans-spear",
                 "hitEffect": "blastExplosion",
                 "hitSound": "mimicry-hit",
