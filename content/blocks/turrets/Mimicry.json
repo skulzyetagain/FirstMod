@@ -1,4 +1,4 @@
-{
+0{
   "localizedName": "[red]Mimicry T",
   "description": "[red] E.G.O. that shaped itself into a turret. [#5B001B]Slow. Expensive. And deliciously cruel.",
     "type": "ItemTurret",
@@ -93,6 +93,7 @@
                 "trailColor": "3F2C2F",
                 "collidesGround": true,
                 "collidesAir": true,
+		"pierce": true,
                 "sprite": "duverxustitans-spear",
                 "hitEffect": "blastExplosion",
                 "hitSound": "mimicry-hit",
@@ -121,7 +122,7 @@
     "consumes":{
       "coolant":{
         "amount": 6,
-        "coolantMultiplier": 0.1
+        "coolantMultiplier": 0.015
       }
     },
     "category": "turret",
