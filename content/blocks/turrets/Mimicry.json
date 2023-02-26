@@ -5,7 +5,6 @@
     "health": 6800,
     "size": 6,
     "coolantMultiplier": 1.25,
-
     "reload": 240,
     "range": 250,
     "buildCost": 540,
@@ -125,135 +124,8 @@
     "consumes":{
       "coolant":{
         "amount": 6
-      },
-    "coolantMultiplier": 1.25
-    },
-    "category": "turret",
-    "research": "Excehadoth"
-
-}
-{
-  "localizedName": "[red]EXCEHADOTH",
-  "description": "[red]A turret named after a deity mentioned in ancient scripts that were found near its blueprints, it is mentioned that the deity was one of Strength and the turret was named after it in hopes of being bestowed similar power",
-    "type": "ItemTurret",
-    "health": 2400,
-    "size": 4,
-    "coolantMultiplier": 1.2,
-    "reload": 120,
-    "range": 250,
-    "buildCost":300,
-    "recoil": 5,
-    "shake": 10,
-    "maxAmmo": 90,
-    "ammoUseEffect": "casing3",
-    "rotateSpeed": 0.65,
-    "shootSound": "bang",
-        "drawer": {
-    "type": "drawTurret"
-    },
-	"ammoTypes": {
-        "thorium": {
-            "speed": 9,
-            "type":"BasicBulletType",
-            "damage": 600,
-            "lifetime": 80,
-            "width": 15,
-            "height": 20,
-            "reflectable": false,
-            "shootEffect": "shootPyraFlame",
-            "smokeEffect": "none",
-            "hitEffect": "flakExplosion",
-            "knockback": 10,
-            "ammoMultiplier": 4,
-            "pierce": false,
-            "hitSize": 8,
-            "reloadMultiplier": 2
-        },
-        "pyratite":{
-          "speed":3,
-          "type":"BasicBulletType",
-          "damage":100,
-          "lifetime":100,
-          "status": "burning", 
-          "statusDuration": 300,
-          "splashDamageRadius": 50,
-          "splashDamage": 150,
-          "width":15,
-          "height":20,
-          "shootEffect": "shootPyraFlame",
-          "smokeEffect": "producesmoke",
-          "hitEffect": "flakExplosion",
-          "knockback": 2,
-          "ammoMultiplier": 2,
-          "pierce": false,
-          "hitSize": 8,
-          "reloadMultiplier":1,
-          "makeFire": true, 
-          "explodeRange": 35,
-          "frontColor": "ffaa5f",
-          "backColor": "ffaa5f"
-        },
-        "spore-pod":{
-          "speed":7,
-          "type":"BasicBulletType",
-          "damage":10,
-          "lifetime":45,
-          "status":"tarred",
-          "statusDuration":450,
-          "width":15,
-          "height":15,
-          "splashDamageRadius":75,
-          "splashDamage":100,
-          "shootEffect": "shootPyraFlame",
-          "smokeEffect": "producesmoke",
-          "hitEffect": "flakExplosion",
-          "knockback":0.5,
-          "ammoMultiplier":1,
-          "pierce":false,
-          "hitSize":10,
-          "frontColor":"7457ce",
-          "backColor":"7457ce",
-          "reloadMultiplier":0.75
-        },
-        "diamtonium":{
-          "speed":8,
-          "type":"BasicBulletType",
-          "splashDamage":2000,
-          "splashDamageRadius":80,
-          "lifetime":90,
-          "status":"erasure",
-          "statusDuration":240,
-          "width": 15,
-          "height": 20,
-          "reflectable": false,
-          "shootEffect": "shootPyraFlame",
-          "smokeEffect": "none",
-          "hitEffect": "explosion",
-          "knockback": 100,
-          "ammoMultiplier": 8,
-          "pierce": false,
-          "hitSize": 8,
-          "reloadMultiplier": 1.5,
-          "frontColor":"ad2335",
-          "backColor":"7f001d"
-          }
-        },
-    "requirements":[
-        "thorium/300",
-        "silicon/800",
-        "copper/1900",
-        "titanium/700",
-        "lead/1200", 
-        "plastanium/200",
-        "surge-alloy/100",
-        "diamantite/30"
-    ],
-    "consumes":{
-      "coolant":{
-        "amount": 2
       }
-    },
+      },
     "category": "turret",
     "research": "Excehadoth"
-
 }
