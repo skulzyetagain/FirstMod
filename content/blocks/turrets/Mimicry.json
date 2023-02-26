@@ -4,14 +4,15 @@
     "type": "ItemTurret",
     "health": 6800,
     "size": 6,
-    "reload": 330,
+    "reload": 240,
     "range": 250,
+    "buildCost": 540,
     "recoil": 16,
     "shake": 20,
     "outlineColor": "565666",
     "maxAmmo": 10,
     "ammoUseEffect": "casing3",
-    "rotateSpeed": 0.30,
+    "rotateSpeed": 0.55,
     "shootSound": "mimicry-fire",
     "drawer": {
     "type": "drawTurret",
@@ -85,7 +86,7 @@
             "hitSound": "mimicry-hit",
             "knockback": 10,
             "hitSize": 8,
-            "fragBullets": 10,
+            "fragBullets": 15,
                 "fragBullet": {
                 "type": "BasicBulletType",
                 "fragAngle": 5,
@@ -100,8 +101,8 @@
                 "damage": 500,
                 "frontColor": "970606",
                 "backColor": "D8CBBA",
-                "width": 8,
-                "height": 16,
+                "width": 6,
+                "height": 12,
                 "shrinkY": 0,
                 "lifetime": 30,
                 "speed": 12
@@ -121,9 +122,9 @@
     ],
     "consumes":{
       "coolant":{
-        "amount": 6,
-        "coolantMultiplier": 0.015
-      }
+        "amount": 6
+      },
+    "coolantMultiplier": 1.25
     },
     "category": "turret",
     "research": "Excehadoth"

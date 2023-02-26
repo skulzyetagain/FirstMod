@@ -2,7 +2,7 @@
   "localizedName": "Sandstorm",
   "description": "Fires a pair of artillery shells towards grounded enemies, fragmentation however can reach up to the airborne ones",
     "type": "ItemTurret",
-    "health": 450,
+    "health": -1,
     "size": 2,
     "reload": 120,
     "range": 400,
@@ -107,6 +107,7 @@
     "requirements":[
         "graphite/200",
         "silicon/125",
+        "pyratite/100",
         "copper/300", 
         "lead/250"
     ],
