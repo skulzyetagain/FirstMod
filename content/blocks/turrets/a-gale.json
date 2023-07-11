@@ -1,0 +1,44 @@
+{
+  "localizedName": "Gale",
+  "description": "Uses power to create compressed air bubbles that push back enemies and momentarily disable them",
+    "type": "PowerTurret",
+    "size": 1,
+    "health": -1,
+    "range": 80,
+    "reload": 45,
+    "shoot":{
+      "shots":2
+    },
+    "burstSpacing":1,
+    "rotateSpeed": 10,
+    "shootSound": "none",
+   	"consumes": {
+      "power": 0.5
+    },
+    "hasPower": true,
+    "shootType": {
+        "damage": 1,
+        "speed": 5,
+        "splashDamageRadius":60, 
+        "splashDamage":1,
+        "knockback": 10,
+        "impact": true,
+        "hitSize": 7,
+        "lifetime": 20,
+        "status": "unmoving",
+        "statusDuration": 60,
+        "pierce": false,
+        "collidesAir": true,
+        "despawnEffect": "none",
+        "frontColor": "FFFFFF",
+        "backColor": "FFFFFF"
+    },
+    "requirements":  [
+            "graphite/10",
+            "silicon/10",
+            "copper/20",
+            "lead/10"
+        ],
+    "category": "turret",
+    "research": "scorch"
+}

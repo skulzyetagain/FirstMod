@@ -2,6 +2,7 @@
   "localizedName": "Paradiamantite reactor",
   "description": "Uses diamantite as a primary resource to generate power. Its attention however lies in the interesting by-product it outputs... ",
 	"type": "ConsumeGenerator",
+	"squareSprite": false,
 	"size": 6,
 	"lightColor": "FF4141",
 	"itemCapacity": 30,
@@ -41,6 +42,7 @@
 		"liquids": ["cryofluid/0.5"],
 		"items": ["diamantite/5"]
 	},
+  "research": "impact-reactor",
 	"requirements": [
         "thorium/700",
         "silicon/1500",
@@ -51,6 +53,7 @@
         "surge-alloy/800",
         "metaglass/1000"
     ],
+    "buildCostMultiplier": 0.15,
 	"category": "power",
   "loopSound": "beam",
   "loopSoundVolume": 5,

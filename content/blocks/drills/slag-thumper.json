@@ -1,0 +1,41 @@
+{
+	"name": "Slag thumper",
+	"type": "AttributeCrafter",
+	"description": "Slowly hits the ground to extract slag at a slow rate.",
+	"drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion"
+       },
+       {
+       "type": "DrawLiquidRegion", 
+       "drawLiquid": "slag"
+       },
+       {
+       "type": "DrawPistons",
+       "angleOffset": 45
+       }
+       ]
+    },
+	"hasItems": false,
+	"hasLiquids": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"solid": true,
+	"health": -1,
+	"size": 3,
+	"category": "production",
+	"research": "water-extractor",
+	"outputLiquid": "slag/0.05",
+	"craftTime": 300,
+  "attribute": "heat",
+  	"requirements": [
+		"lead/70",
+		"copper/60",
+		"scrap/50"
+	],
+	"consumes": {
+		"power": 2.5
+	}
+}

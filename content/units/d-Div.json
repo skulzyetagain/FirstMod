@@ -1,0 +1,79 @@
+{
+  "localizedName": "Div",
+  "description": "... To divide your foes into several pieces",
+    "research": {
+    "parent": "c-Multi",
+    "requirements": [
+      "silicon/1000",
+      "titanium/600",
+      "plastanium/200",
+      "spore-pod/750",
+      "diamantite/40",
+      "thorium/400"
+      ]
+    },
+    "speed": 1,
+    "accel": 0.08,
+    "drag": 0.01,
+    "lowAltitude": false,
+    "flying": true,
+    "health": 2000,
+    "armor": 15,
+    "engineOffset": 10,
+    "range": 160,
+    "targetAir": true,
+    "circleTarget": false,
+	"weapons": [
+		{
+    "name": "Div-lazer",
+    "mirror": true,
+    "alternate": false,
+    "top": false,
+    "layerOffset":-5,
+    "x": 8,
+    "y": 1.5,
+    "reload": 60,
+    "rotate": false,
+    "baseRotation": -8,
+    "bullet": {
+    "type": "ContinuousLaserBulletType",
+    "shootSound" :"laserbig",
+    "loopSound": "beam",
+    "loopSoundVolume": 2.5,
+    "damage":30,
+    "length": 100,
+    "status": "melting",
+    "statusDuration": 300,
+    "lifetime": 120
+	  	}
+		},
+		{
+    "name": "Div-lazer",
+    "mirror": true,
+    "top": false,
+    "layerOffset":-5,
+    "x": 15,
+    "y": 0,
+    "reload": 150,
+    "rotate": false,
+    "baseRotation": 5,
+    "bullet": {
+    "type": "ContinuousLaserBulletType",
+    "shootSound": "laserbig",
+    "loopSound": "beam",
+    "loopSoundVolume": 2.5,
+    "damage": 350,
+    "status": "melting",
+    "statusDuration": 120,
+    "length": 300,
+    "lifetime": 60,
+    "rotation":25,
+    "incendChance": 25,
+    "incendSpread": 10,
+    "incendAmount": 5,
+    "shootStatus": "unmoving",
+    "shootStatusDuration": 45
+    }
+		}
+	]
+}

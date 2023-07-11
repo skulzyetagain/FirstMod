@@ -1,0 +1,17 @@
+{
+  "localizedName": "Large Statinium Wall",
+  "type": "Wall",
+  "health": 3800,
+  "size": 2,
+  "lightningChance": 0.75,
+  "lightningLength": 25,
+  "lightningDamage": 40,
+  "lightningColor": "FFFD81",
+  "requirements": [
+    "statinium/20",
+    "silicon/8" 
+  ],
+  "buildCostMultiplier": 0.3,
+  "category": "defense",
+  "research": "surge-wall"
+}

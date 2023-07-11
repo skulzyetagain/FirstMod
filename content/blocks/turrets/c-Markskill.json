@@ -1,0 +1,190 @@
+{
+  "localizedName": "Markskill",
+  "description": "ULTRAKILL YOURSELF NOW",
+    "type": "ItemTurret",
+    "size": 3,
+    "reload": 50,
+    "range": 250,
+    "recoil": 4,
+    "outlineColor": "565666",
+    "maxAmmo": 42,
+    "ammoPerShot": 3,
+    "rotateSpeed": 3.5,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "reinforced-",
+         "parts": [
+           {
+         "type": "RegionPart",
+         "suffix": "-wing",
+         "layerOffset": -0.4,
+         "moveRot": 120,
+         "moveX": 18,
+         "moveY": 9,
+         "heatColour": "FFFF5A",
+         "mirror": true,
+         "progress": "warmup"
+           },
+           {
+         "type": "RegionPart",
+         "suffix": "-wing",
+         "layerOffset": -0.3,
+         "moveRot": 90,
+         "moveX": 20,
+         "moveY": 0,
+         "heatColour": "FFFF5A",
+         "mirror": true,
+         "progress": "warmup"
+           },
+           {
+         "type": "RegionPart",
+         "suffix": "-wing",
+         "layerOffset": -0.2,
+         "moveRot": 60,
+         "moveX": 18,
+         "moveY": -9,
+         "heatColour": "FFFF5A",
+         "mirror": true,
+         "progress": "warmup"
+           },
+           {
+         "type": "RegionPart",
+         "suffix": "-wing",
+         "layerOffset": -0.1,
+         "moveRot": 30,
+         "moveX": 10.25,
+         "moveY": -17.5,
+         "heatColour": "FFFF5A",
+         "mirror": true,
+         "progress": "warmup"
+           },
+           {
+         "type": "RegionPart",
+         "suffix": "-bottom",
+         "layerOffset": 0
+           },
+           {
+         "type": "RegionPart",
+         "suffix": "-lense",
+         "layerOffset": 0,
+         "moveY": -13.25,
+         "progress": "warmup"
+           },
+           {
+         "type": "RegionPart",
+         "suffix": "-side",
+         "layerOffset": 0,
+         "moveX": 2,
+         "moveY": -2,
+         "mirror": true,
+         "progress": "warmup"
+           }
+         ]
+         },
+	"ammoTypes": {
+        "titanium": {
+            "speed": 15,
+            "pierce": true,
+            "pierceCap": 9999,
+            "type":"BasicBulletType",
+            "damage": 75,
+            "lifetime": 15,
+            "width": 2,
+            "height": 6,
+            "shrinkY": 0,
+            "reflectable": false,
+            "despawnEffect": {
+              "type": "ParticleEffect",
+              "region": "duverxustitans-coin-reflect",
+              "size": 12,
+              "particles": 1,
+              "lifetime": 20,
+              "color": "E3C902"
+            },
+            "hitSound": "coin-ting",
+            "hitSize": 3,
+            "fragBullets": 1,
+                "fragBullet": {
+                  "speed": 15,
+                  "pierce": true,
+                  "pierceCap": 9999,
+                  "type":"BasicBulletType",
+                  "damage": 75,
+                  "lifetime": 15,
+                  "homingRange": 800,
+                  "homingPower": 10, 
+                  "width": 2,
+                  "height": 6,
+                  "shrinkY": 0,
+                  "reflectable": false,
+                  "despawnEffect": {
+                    "type": "ParticleEffect",
+                    "region": "duverxustitans-coin-reflect",
+                    "size": 12,
+                    "particles": 1,
+                    "lifetime": 20,
+                    "color": "E3C902"
+                  },
+                  "hitSound": "coin-ting",
+                  "hitSize": 3,
+                  "fragBullets": 1,
+                  "fragBullet": {
+                    "speed": 15,
+                    "pierce": true,
+                    "pierceCap": 9999,
+                    "type":"BasicBulletType",
+                    "damage": 75,
+                    "lifetime": 15,
+                    "homingRange": 800,
+                    "homingPower": 10,
+                    "width": 2,
+                    "height": 6,
+                    "shrinkY": 0,
+                    "reflectable": false,
+                    "despawnEffect": {
+                      "type": "ParticleEffect",
+                      "region": "duverxustitans-coin-reflect",
+                      "size": 12,
+                      "particles": 1,
+                      "lifetime": 20,
+                      "color": "E3C902"
+                    },
+                    "hitSound": "coin-ting",
+                    "hitSize": 3,
+                    "fragBullets": 1,
+                    "fragBullet": {
+                      "speed": 15,
+                      "pierce": true,
+                      "pierceCap": 9999,
+                      "type":"BasicBulletType",
+                      "damage": 75,
+                      "lifetime": 15,
+                      "homingRange": 800,
+                      "homingPower": 10, 
+                      "width": 2,
+                      "height": 6,
+                      "shrinkY": 0,
+                      "reflectable": false,
+                      "hitSound": "coin-ting",
+                      "hitSize": 3
+            }
+        }
+        }
+        }
+        },
+    "requirements":[
+        "silicon/30",
+        "copper/50",
+        "titanium/30",
+        "lead/100", 
+        "plastanium/65",
+        "organ-pod/75"
+    ],
+    "consumes":{
+      "coolant":{
+        "amount": 0.5
+      }
+      },
+    "category": "turret",
+    "research": "swarmer"
+}

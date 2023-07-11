@@ -11,9 +11,8 @@
        },
        {
          "type": "DrawPistons",
-         "suffix": "-ball",
-         "rotateSpeed": -5,
-         "sinMag": 2
+         "suffix": "-blade",
+         "sinMag": 2.5
        },
        {
        "type": "DrawRegion",
@@ -37,6 +36,7 @@
 		"titanium/125",
 		"plastanium/175"
 	],
+	"buildCostMultiplier": 0.5,
 	"category": "production",
 	"research": "cultivator",
   "outputItems": [

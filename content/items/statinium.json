@@ -1,0 +1,13 @@
+{
+  "localizedName": "Statinium",
+  "description": "Light, durable, extremely ionised. Slight changes in the manufacturing of [#f3e979] surge alloy [#BFBFBF] allow the creation of a more durable and conductive material, albeit less cost efficient.[#FFFD81] No matter the cost, we'll reach our goal somehow.",
+  "frames": 8,
+  "transitionFrames": 2,
+  "charge": 2,
+  "radioactivity": 0,
+  "explosiveness": -0.5,
+  "color": "FFFD81",
+  "research": {
+    "parent": "surge-alloy"
+  }
+}

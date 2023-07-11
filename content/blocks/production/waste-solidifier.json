@@ -37,7 +37,7 @@
 		]
 	},
 	"results": [
-  "scrap/3",
+  "scrap/7",
   "diamtonium/1"
 	],
 	"requirements": [
@@ -47,6 +47,7 @@
   "lead/150",
   "copper/90"
 	],
+	"buildCostMultiplier": 0.3,
 	"category": "crafting",
 	"research": "disassembler"
 }

@@ -31,13 +31,14 @@
 			]
     }
   },
-  "requirements": [
-    { "item": "silicon", "amount": 300 },
-    { "item": "metaglass", "amount": 70 },
-    { "item": "thorium", "amount": 250 },
-    { "item": "titanium", "amount": 300 },
-    { "item": "graphite", "amount": 440 }
+  	"requirements": [
+		"silicon/300",
+		"metaglass/70",
+		"titanium/300",
+		"thorium/250",
+		"graphite/440"
 	],
+	"buildCostMultiplier": 0.2,
   "category": "crafting",
   "research": "surge-smelter",
   "outputItems": [
