@@ -1,10 +1,10 @@
 {
   "name": "duverxustitans",
   "displayName": "[cyan]Titans Awoken",
-  "author": "Duverxus/Skulz",
+  "author": "Rosa/Skulz",
   "description": "Small mod that keeps adding stuff",
-  "version": "0.5",
+  "version": "0.6",
   "hidden" : "false",
-  "minGameVersion": "136",
+  "minGameVersion": "145",
   "dependencies": []
 }
