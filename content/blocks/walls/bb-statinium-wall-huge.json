@@ -11,7 +11,6 @@
     "statinium/45",
     "silicon/18" 
   ],
-  "buildCostMultiplier": 0.3,
   "category": "defense",
   "research": "b-statinium-wall-huge"
 }
