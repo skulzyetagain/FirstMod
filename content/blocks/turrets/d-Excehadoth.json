@@ -4,6 +4,7 @@
     "type": "ItemTurret",
     "health": 2400,
     "size": 4,
+    "outlineColor": "262626",
     "coolantMultiplier": 0.5,
     "reload": 120,
     "range": 250,

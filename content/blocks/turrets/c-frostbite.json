@@ -3,6 +3,7 @@
   "description": "A turret that utilises a foreign method of ammunition production, giving them a freezing temperature, however this method comes at the cost of the turret freezing and thus never reaching it's full potential",
     "type": "ItemTurret",
     "health": -1,
+    "outlineColor": "262626",
     "size": 3,
     "reload": 10,
     "range": 150,
