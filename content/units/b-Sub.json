@@ -9,9 +9,9 @@
     ]
   },
   "hitSize": 20,
-  "speed": 10,
-  "accel": 0.2,
-  "drag": 0.3,
+  "speed": 15,
+  "accel": 0.05,
+  "drag": 0.1,
   "lowAltitude": true,
   "flying": true,
   "health": 400,
@@ -23,7 +23,7 @@
   "weapons": [
     {
       "reload": 135,
-      "recoil": 0,
+      "recoil": -40,
       "bullet": {
         "type": "BombBulletType",
         "shootEffect": "none",
@@ -31,7 +31,7 @@
         "despawnHit": true,
         "damage": 75, 
         "splashDamageRadius": 16,
-        "splashDamage": 200,
+        "splashDamage": 250,
         "speed": 0,
         "keepVelocity": false, 
         "lifetime": 3,
