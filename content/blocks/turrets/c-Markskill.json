@@ -1,6 +1,6 @@
 {
   "localizedName": "Markskill",
-  "description": "Fires a bullet that ricochets off of tiny coins towards enemies. [2C3A69]ULTRAKILL YOURSELF, NOW!",
+  "description": "Fires a bullet that ricochets off of tiny coins towards enemies. [#2C3A69]ULTRAKILL YOURSELF, NOW!",
     "type": "ItemTurret",
     "size": 3,
     "squareSprite": false,
