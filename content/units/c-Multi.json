@@ -26,6 +26,7 @@
 	"weapons": [
 		{
     "name": "Multi-shotgun",
+    "layerOffset": 0.01,
     "mirror": true,
     "top": false,
     "x": 8,
