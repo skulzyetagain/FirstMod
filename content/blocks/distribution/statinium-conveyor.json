@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "name": "Statinium conveyor",
   "type": "Conveyor",
   "description": "Utilises electromagnetism to send resources forward at high speeds. Larger than conversional conveyors to improve effectiveness.",
