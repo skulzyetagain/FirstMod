@@ -1,0 +1,16 @@
+{
+  "name": "Statinium conveyor",
+  "type": "Conveyor",
+  "description": "Utilises electromagnetism to send resources forward at high speeds. Larger than conversional conveyors to improve effectiveness.",
+  "size": 2,
+  "speed": 0.2,
+  "capacity": 7,
+  "category": "distribution",
+  "research": "titanium-conveyor",
+  "requirements": [
+    "statinium/1",
+    "titanium/3",
+    "surge-alloy/1"
+    ],
+  "buildCost": 15
+}
