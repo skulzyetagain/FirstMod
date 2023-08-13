@@ -7,7 +7,6 @@
   "speed": 0.2,
   "capacity": 7,
   "category": "distribution",
-  "research": "titanium-conveyor",
   "requirements": [
     "statinium/1",
     "titanium/3",
