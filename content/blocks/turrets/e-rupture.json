@@ -1,0 +1,10 @@
+{
+  "name": "Rupture",
+  "description": "Hits the ground to exter- Wait, didn't I say this before? It ruptures the ground beneath grounded enemies and strongly slams them back",
+  "type": "PowerTurret",
+  "size": 5,
+  "health": -1,
+  "range": 60,
+  "reload": 120,
+  
+}
