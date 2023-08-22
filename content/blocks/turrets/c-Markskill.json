@@ -94,6 +94,8 @@
             "height": 6,
             "shrinkY": 0,
             "reflectable": false,
+            "fragOnHit": false,
+            "fragOnAbsorb": false,
             "despawnEffect": {
               "type": "ParticleEffect",
               "region": "duverxustitans-coin-reflect",
@@ -118,6 +120,9 @@
                   "height": 6,
                   "shrinkY": 0,
                   "reflectable": false,
+                  "fragVelocityMin": 1.0,
+                  "fragOnHit": false,
+                  "fragOnAbsorb": false,
                   "despawnEffect": {
                     "type": "ParticleEffect",
                     "region": "duverxustitans-coin-reflect",
@@ -142,6 +147,9 @@
                     "height": 6,
                     "shrinkY": 0,
                     "reflectable": false,
+                    "fragVelocityMin": 1.0,
+                    "fragOnHit": false,
+                    "fragOnAbsorb": false,
                     "despawnEffect": {
                       "type": "ParticleEffect",
                       "region": "duverxustitans-coin-reflect",
@@ -165,6 +173,7 @@
                       "width": 2,
                       "height": 6,
                       "shrinkY": 0,
+                      "fragVelocityMin": 1.0,
                       "reflectable": false,
                       "hitSound": "coin-ting",
                       "hitSize": 3

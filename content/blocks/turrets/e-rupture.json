@@ -1,10 +1,26 @@
 {
   "name": "Rupture",
-  "description": "Hits the ground to exter- Wait, didn't I say this before? It ruptures the ground beneath grounded enemies and strongly slams them back",
+  "description": "Hits the ground to ext- Wait, didn't I say this before? It ruptures the ground beneath grounded enemies and strongly slams them back",
   "type": "PowerTurret",
+  "targetAir": false,
   "size": 5,
   "health": -1,
   "range": 60,
-  "reload": 120,
-  
+  "reload": 180,
+  "consumes": {
+    "power": 2.5
+  },
+  "shootType": {
+    "damage": 8000,
+    "splashDamageRadius": 80, 
+    "splashDamage":800,
+    "knockback": 100,
+    "impact": true,
+    "hitSize": 16,
+    "status": "erupted",
+    "statusDuration": 60,
+    "pierce": false,
+    "collidesAir": false,
+    "despawnEffect": "none"
+  },
 }

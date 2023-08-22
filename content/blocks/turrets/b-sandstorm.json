@@ -48,7 +48,7 @@
             "backColor": "ff795e"
         },
         "graphite": {
-            "speed": 4,
+            "speed": 5,
             "type":"ArtilleryBulletType",
             "damage": 50,
             "lifetime": 375,
@@ -75,9 +75,9 @@
             "lifetime": 375,
             "splashDamageRadius": 80,
             "splashDamage": 30,
-            "width": 10,
+            "width": 12,
             "collidesAir": true,
-            "height": 10,
+            "height": 12,
             "reflectable": false,
             "shootEffect": "shootSmallSmoke",
             "smokeEffect": "none",
@@ -87,18 +87,18 @@
             "hitSize": 8,
             "frontColor": "fadfc8",
             "backColor": "fadfc8",
-            "fragBullets": 15,
+            "fragBullets": 12,
             "fragBullet": {
                 "type": "ArtilleryBulletType",
                 "collidesGround": true,
                 "collidesAir": true,
                 "damage": 1,
                 "splashDamage": 20,
-                "splashDamageRadius": 30,
+                "splashDamageRadius": 16,
                 "frontColor": "fadfc8",
                 "backColor": "fadfc8",
-                "height": 4,
-                "width": 4,
+                "height": 1,
+                "width": 1,
                 "lifetime": 60,
                 "speed": 1
             }
