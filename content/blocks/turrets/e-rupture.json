@@ -7,6 +7,25 @@
   "health": -1,
   "range": 60,
   "reload": 180,
+  "rotateSpeed": 2,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "reinforced-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-flap",
+        "layerOffset": -0.1,
+        "rotation": 45,
+        "x": 6.25,
+        "moveX": 1,
+        "moveY": 9,
+        "heatColour": "FFFF5A",
+        "mirror": true,
+        "progress": "warmup"
+      }
+      ]
+  },
   "consumes": {
     "power": 2.5
   },
@@ -22,5 +41,5 @@
     "pierce": false,
     "collidesAir": false,
     "despawnEffect": "none"
-  },
+  }
 }
