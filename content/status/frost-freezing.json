@@ -1,6 +1,7 @@
 {
   "localizedName": "Frozen Balls",
   "description": "AIE CARAMBA MY BALLS ARE COLDER THAN MY FIT",
+  "show": false,
   "color": "6ecdec",
   "speedMultiplier": 0.6,
   "effect": "freezing",
