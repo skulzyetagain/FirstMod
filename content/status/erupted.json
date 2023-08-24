@@ -1,10 +1,12 @@
 {
   "localizedName": "Erupted",
-  "description": "You can see your atoms decaying right in front of you.",
+  "description": "Sudden blunt force applied; restoration may be slow",
   "speedMultiplier": 0.2,
   "buildSpeedMultiplier": 0.5,
   "color": "FFBB32",
   "healthMultiplier": 0.9,
   "reloadMultiplier": 0.2,
-  "affinities": "duverxustitans-freezing2"
+  "affinities": [
+    "frost-freezing"
+    ]
 }

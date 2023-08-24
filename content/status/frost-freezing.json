@@ -5,6 +5,8 @@
   "speedMultiplier": 0.6,
   "effect": "freezing",
   "healthMultiplier": 0.8,
-  "affinities": "duverxustitans-erupted",
+  "affinities": [
+    "erupted"
+    ],
   "transitionDamage": 90
 }
