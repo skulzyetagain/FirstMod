@@ -15,14 +15,28 @@
       {
         "type": "RegionPart",
         "suffix": "-flap",
-        "layerOffset": -0.1,
+        "layerOffset": -0.2,
         "rotation": 45,
         "x": 6.25,
-        "moveX": 1,
-        "moveY": 9,
-        "heatColour": "FFFF5A",
+        "moveX": 8.5,
+        "moveY": -8.5,
         "mirror": true,
-        "progress": "warmup"
+        "progress": "warmup",
+        "moves": [
+          {
+            "type": "PartMove",
+            "moveX": -4,
+            "moveY": 4,
+            "progress": "reload"
+          }
+          ]
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-head",
+        "layerOffset": -0.1,
+        "moveY": 5,
+        "progress": "recoil"
       }
       ]
   },
@@ -41,5 +55,6 @@
     "pierce": false,
     "collidesAir": false,
     "despawnEffect": "none"
-  }
+  },
+  "category": "turret"
 }
