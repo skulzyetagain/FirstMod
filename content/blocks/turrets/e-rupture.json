@@ -1,12 +1,13 @@
 {
   "name": "Rupture",
-  "description": "Hits the ground to ext- Wait, didn't I say this before? It ruptures the ground beneath grounded enemies and strongly slams them back",
+  "description": "Hits the ground to ext- Wait, didn't I say this before? It ruptures the ground beneath grounded enemies and strongly slams them back. Especially effective on buildings",
   "type": "PowerTurret",
   "targetAir": false,
   "size": 5,
   "health": -1,
   "range": 60,
   "reload": 180,
+  "recoil": -8,
   "rotateSpeed": 2,
   "drawer": {
     "type": "drawTurret",
@@ -15,7 +16,7 @@
       {
         "type": "RegionPart",
         "suffix": "-flap",
-        "layerOffset": -0.2,
+        "layerOffset": -0.1,
         "rotation": 45,
         "x": 6.25,
         "moveX": 8.5,
@@ -37,6 +38,10 @@
         "layerOffset": -0.1,
         "moveY": 5,
         "progress": "recoil"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-body"
       }
       ]
   },
@@ -45,6 +50,7 @@
   },
   "shootType": {
     "damage": 8000,
+    "buildingDamageMultiplier": 10,
     "splashDamageRadius": 80, 
     "splashDamage":800,
     "knockback": 100,
@@ -54,7 +60,16 @@
     "statusDuration": 60,
     "pierce": false,
     "collidesAir": false,
-    "despawnEffect": "none"
+    "instantDisappear": true,
+    "despawnEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "type": "scatheSlash",
+          "color": "FFBB32"
+        }]
+    }
   },
-  "category": "turret"
+  "category": "turret",
+  "research": "disperse"
 }
