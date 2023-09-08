@@ -70,6 +70,12 @@
         }]
     }
   },
+    "requirements":  [
+            "graphite/20",
+            "silicon/200",
+            "thorium/40",
+            "oxide/250"
+        ],
   "category": "turret",
   "research": "disperse"
 }
