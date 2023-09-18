@@ -10,17 +10,17 @@
     {
       "unit": "a-Add",
       "requirements": [
-        { "item": "graphite", "amount": 15 },
-        { "item": "silicon", "amount": 25 },
-        { "item": "spore-pod", "amount": 10 }
+        "graphite/15",
+        "silicon/25",
+        "spore-pod/10"
        ],
-      "time": 480
+      "ConstructTime": 480
   }
 ],
   "requirements": [
-    { "item": "silicon", "amount": 240 },
-    { "item": "graphite", "amount": 130 },
-    { "item": "spore-pod", "amount": 80 }
+    "silicon/240",
+    "graphite/130",
+    "spore-pod/80"
 ],
   "buildCostMultiplier": 0.5,
   "category": "units",

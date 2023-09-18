@@ -1,16 +1,17 @@
 {	
   "localizedName": "Diamantite Wall",
+  "description": "Protects structures from enemy projectiles. Takes reduced damage from being overrun, moderately armoured",
 	"type": "Wall",
-    "health": 1650,
-    "size": 1,
-    "armour": 25,
-    "crushDamageMultiplier": 0.2,
-    "requirements": [
-    "diamantite/12",
+	"health": 1650,
+	"size": 1,
+	"armor": 25,
+	"crushDamageMultiplier": 0.2,
+	"requirements": [
+	  "diamantite/12",
     "thorium/8",
     "titanium/4"
-    ],
-    "buildCostMultiplier": 0.3,
-    "category": "defense",
-    "research": "thorium-wall"
+  ],
+  "buildCostMultiplier": 0.3,
+  "category": "defense",
+  "research": "thorium-wall"
 }

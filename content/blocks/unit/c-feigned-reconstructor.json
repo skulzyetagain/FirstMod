@@ -26,7 +26,7 @@
   "upgrades": [
     ["b-Sub", "c-Multi"]
     ],
-  "time": 600,
+  "constructTime": 600,
   "category": "units",
   "research": "b-artificial-reconstructor"
 }

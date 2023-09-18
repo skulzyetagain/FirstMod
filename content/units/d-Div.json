@@ -29,6 +29,7 @@
     "mirror": true,
     "alternate": false,
     "top": false,
+    "shootSound": "torch",
     "layerOffset":-5,
     "x": 8,
     "y": 1.5,
@@ -37,9 +38,6 @@
     "baseRotation": -8,
     "bullet": {
     "type": "ContinuousLaserBulletType",
-    "shootSound" :"laserbig",
-    "loopSound": "beam",
-    "loopSoundVolume": 2.5,
     "damage":30,
     "length": 100,
     "status": "melting",
@@ -51,6 +49,7 @@
     "name": "Div-lazer",
     "mirror": true,
     "top": false,
+    "shootSound": "torch",
     "layerOffset":-5,
     "x": 15,
     "y": 0,
@@ -59,20 +58,14 @@
     "baseRotation": 5,
     "bullet": {
     "type": "ContinuousLaserBulletType",
-    "shootSound": "laserbig",
-    "loopSound": "beam",
-    "loopSoundVolume": 2.5,
     "damage": 350,
     "status": "melting",
     "statusDuration": 120,
     "length": 300,
     "lifetime": 60,
-    "rotation":25,
     "incendChance": 25,
-    "incendSpread": 10,
-    "incendAmount": 5,
-    "shootStatus": "unmoving",
-    "shootStatusDuration": 45
+    "incendSpread": 15,
+    "incendAmount": 10
     }
 		}
 	]

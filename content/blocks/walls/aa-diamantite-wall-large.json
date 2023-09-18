@@ -1,9 +1,10 @@
 {
   "localizedName": "Large Diamantite Wall",
   "type": "Wall",
+  "description": "Protects structures from enemy projectiles. Takes reduced damage from being overrun, moderately armoured",
   "health": 9900,
   "size": 2,
-  "armour": 25,
+  "armor": 25,
   "crushDamageMultiplier": 0.2,
   "requirements": [
     "diamantite/48",

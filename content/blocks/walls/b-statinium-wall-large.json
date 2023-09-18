@@ -1,5 +1,6 @@
 {
   "localizedName": "Large Statinium Wall",
+  "description": "Protects structures from enemy projectiles. High chance to shoot out strong electric arcs when damaged.",
   "type": "Wall",
   "health": 3800,
   "size": 2,

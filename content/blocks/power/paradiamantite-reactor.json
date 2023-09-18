@@ -34,7 +34,7 @@
        {
        "type": "DrawGlowRegion",
        "suffix": "-light",
-       "colour": "FF4141"
+       "color": "FF4141"
        }
     ]
     },

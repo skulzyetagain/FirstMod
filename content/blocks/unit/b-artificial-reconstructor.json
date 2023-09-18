@@ -23,7 +23,7 @@
   "upgrades": [
     ["a-Add", "b-Sub"]
     ],
-  "time": 300,
+  "constructTime": 300,
   "category": "units",
   "research": "a-pseudo-forge"
 }

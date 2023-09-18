@@ -1,9 +1,9 @@
 {
   "name": "duverxustitans",
-  "displayName": "[cyan]Titans Awoken",
+  "displayName": "[cyan]Machina ex Deus",
   "author": "Rosa/Skulz",
   "description": "Small mod that keeps adding stuff",
-  "version": "0.6",
+  "version": "0.7",
   "hidden" : "false",
   "minGameVersion": "145",
   "dependencies": []

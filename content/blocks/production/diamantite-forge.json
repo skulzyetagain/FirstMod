@@ -26,8 +26,8 @@
     "power": 3,
     "items": {
       "items": [
-			"titanium/3",
-			"thorium/4"
+			"titanium/5",
+			"thorium/6"
 			]
     }
   },
@@ -43,6 +43,6 @@
   "research": "surge-smelter",
   "outputItems": [
     "diamantite/1",
-    "lead/2"
+    "lead/3"
  ] 
 }

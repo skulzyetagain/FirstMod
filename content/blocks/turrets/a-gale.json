@@ -7,9 +7,8 @@
     "range": 80,
     "reload": 45,
     "shoot":{
-      "shots":2
+      "shots": 2
     },
-    "burstSpacing":1,
     "rotateSpeed": 10,
     "shootSound": "none",
    	"consumes": {

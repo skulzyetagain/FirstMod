@@ -16,6 +16,7 @@
     "ammoPerShot": 20,
     "rotateSpeed": 0.55,
     "shootSound": "mimicry-fire",
+    "unitSort": "strongest",
     "drawer": {
     "type": "drawTurret",
     "basePrefix": "mimicry-",
@@ -73,7 +74,7 @@
             "speed": 12,
             "type":"BasicBulletType",
             "damage": 2500,
-            "lifetime": 60,
+            "lifetime": 30,
             "width": 32,
             "height": 64,
             "shrinkY": 0,

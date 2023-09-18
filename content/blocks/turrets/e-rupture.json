@@ -5,10 +5,14 @@
   "targetAir": false,
   "size": 5,
   "health": -1,
-  "range": 60,
+  "armor": 15,
+  "crushDamageMultiplier": 0.2,
+  "range": 135,
   "reload": 180,
   "recoil": -8,
+  "shootY": 39.5,
   "rotateSpeed": 2,
+  "shootSound": "none",
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-",
@@ -16,11 +20,11 @@
       {
         "type": "RegionPart",
         "suffix": "-flap",
-        "layerOffset": -0.1,
-        "rotation": 45,
-        "x": 6.25,
-        "moveX": 8.5,
-        "moveY": -8.5,
+        "layerOffset": 0,
+        "y": -0.5,
+        "x": 10.25,
+        "moveX": 5,
+        "moveY": -5,
         "mirror": true,
         "progress": "warmup",
         "moves": [
@@ -28,15 +32,34 @@
             "type": "PartMove",
             "moveX": -4,
             "moveY": 4,
-            "progress": "reload"
+            "progress": "recoil"
+          }
+          ]
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-flap",
+        "layerOffset": 0,
+        "y": -8.75,
+        "x": 6.75,
+        "moveX": 5,
+        "moveY": -5,
+        "mirror": true,
+        "progress": "warmup",
+        "moves": [
+          {
+            "type": "PartMove",
+            "moveX": -4,
+            "moveY": 4,
+            "progress": "recoil"
           }
           ]
       },
       {
         "type": "RegionPart",
         "suffix": "-head",
-        "layerOffset": -0.1,
-        "moveY": 5,
+        "layerOffset": 0,
+        "moveY": 12,
         "progress": "recoil"
       },
       {
@@ -49,26 +72,27 @@
     "power": 2.5
   },
   "shootType": {
-    "damage": 8000,
+    "speed": 1,
+    "lifetime": 0.06,
+    "damage": 1600,
     "buildingDamageMultiplier": 10,
-    "splashDamageRadius": 80, 
-    "splashDamage":800,
+    "splashDamageRadius": 104, 
+    "splashDamage": 1040,
     "knockback": 100,
-    "impact": true,
-    "hitSize": 16,
+    "hitSize": 36,
     "status": "erupted",
-    "statusDuration": 60,
+    "statusDuration": 180,
     "pierce": false,
     "collidesAir": false,
-    "instantDisappear": true,
-    "despawnEffect": {
-      "type": "MultiEffect",
-      "effects": [
-        {
-          "type": "scatheSlash",
-          "color": "FFBB32"
-        }]
-    }
+    "scaledSplashDamage": true,
+    "pierceArmor": true,
+    "splashDamagePierce": true,
+    "despawnSound": "largeExplosion",
+    "despawnEffect": "scatheExplosion",
+    "lightning": 10,
+    "lightningDamage": 0,
+    "lightningLength": 4,
+    "lightningLengthRand": 12
   },
     "requirements":  [
             "graphite/20",

@@ -22,7 +22,7 @@
          "moveRot": 120,
          "moveX": 18,
          "moveY": 9,
-         "heatColour": "FFFF5A",
+         "heatColor": "FFFF5A",
          "mirror": true,
          "progress": "warmup"
            },
@@ -33,7 +33,7 @@
          "moveRot": 90,
          "moveX": 20,
          "moveY": 0,
-         "heatColour": "FFFF5A",
+         "heatColor": "FFFF5A",
          "mirror": true,
          "progress": "warmup"
            },
@@ -44,7 +44,7 @@
          "moveRot": 60,
          "moveX": 18,
          "moveY": -9,
-         "heatColour": "FFFF5A",
+         "heatColor": "FFFF5A",
          "mirror": true,
          "progress": "warmup"
            },
@@ -55,7 +55,7 @@
          "moveRot": 30,
          "moveX": 10.25,
          "moveY": -17.5,
-         "heatColour": "FFFF5A",
+         "heatColor": "FFFF5A",
          "mirror": true,
          "progress": "warmup"
            },
@@ -96,14 +96,6 @@
             "reflectable": false,
             "fragOnHit": false,
             "fragOnAbsorb": false,
-            "despawnEffect": {
-              "type": "ParticleEffect",
-              "region": "duverxustitans-coin-reflect",
-              "size": 12,
-              "particles": 1,
-              "lifetime": 20,
-              "color": "E3C902"
-            },
             "hitSound": "coin-ting",
             "hitSize": 3,
             "fragBullets": 1,
@@ -123,14 +115,6 @@
                   "fragVelocityMin": 1.0,
                   "fragOnHit": false,
                   "fragOnAbsorb": false,
-                  "despawnEffect": {
-                    "type": "ParticleEffect",
-                    "region": "duverxustitans-coin-reflect",
-                    "size": 12,
-                    "particles": 1,
-                    "lifetime": 20,
-                    "color": "E3C902"
-                  },
                   "hitSound": "coin-ting",
                   "hitSize": 3,
                   "fragBullets": 1,
@@ -150,14 +134,6 @@
                     "fragVelocityMin": 1.0,
                     "fragOnHit": false,
                     "fragOnAbsorb": false,
-                    "despawnEffect": {
-                      "type": "ParticleEffect",
-                      "region": "duverxustitans-coin-reflect",
-                      "size": 12,
-                      "particles": 1,
-                      "lifetime": 20,
-                      "color": "E3C902"
-                    },
                     "hitSound": "coin-ting",
                     "hitSize": 3,
                     "fragBullets": 1,
@@ -177,9 +153,9 @@
                       "reflectable": false,
                       "hitSound": "coin-ting",
                       "hitSize": 3
-            }
-        }
-        }
+                    }
+                  }
+                }
         }
         },
     "requirements":[

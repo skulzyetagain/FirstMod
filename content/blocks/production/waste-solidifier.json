@@ -14,9 +14,9 @@
        "drawLiquid": "unstable-waste"
        },
        {
-       "type": "DrawRegion",
+       "type": "DrawGlowRegion",
        "suffix": "-heat",
-       "colour": "FFB74C"
+       "color": "FFB74C"
        },
        {
        "type": "DrawPistons",

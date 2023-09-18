@@ -32,6 +32,7 @@
     "x": 8,
     "y": 1,
     "reload": 120,
+    "shootSound": "sap",
     "rotate": true,
     "rotateSpeed": 1.8,
     "shoot": {
@@ -41,20 +42,19 @@
     "inaccuracy": 10,
     "bullet": {
     "type": "MissileBulletType",
-    "shootSound": "missile",
     "height": 7.5,
     "width": 5,
     "despawnHit": true,
-    "damage": 60,
+    "damage": 40,
     "speed": 6,
     "keepVelocity": true,
     "lifetime": 40,
     "lightning": 4,
-    "lightningDamage": 15,
-    "lightningLength": 15,
+    "lightningDamage": 10,
+    "lightningLength": 6,
     "lightningCone": 90,
-    "lightningLengthRand": 10,
-    "homingPower":0.5,
+    "lightningLengthRand": 12,
+    "homingPower":0.15,
     "homingRange": 150
 	  	}
 		}

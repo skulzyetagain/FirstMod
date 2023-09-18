@@ -4,32 +4,32 @@
     "type": "ItemTurret",
     "health": -1,
     "size": 2,
-    "reload": 120,
-    "range": 400,
+    "reload": 60,
+    "range": 270,
     "recoil": 5,
     "shake": 3,
     "targetAir": false,
     "targetGround": true,
     "maxAmmo": 40,
     "inaccuracy": 7.5,
+    "unitSort": "farthest",
     "shoot":{
       "shots": 2
     },
-    "burstSpacing": 12,
     "xRand": 3,
     "ammoPerShot":4,
     "ammoUseEffect": "casing2",
     "rotateSpeed": 2.5,
     "shootSound": "bang",
-        "drawer": {
-    "type": "drawTurret"
+    "drawer": {
+      "type": "drawTurret"
     },
-	"ammoTypes": {
-        "blast-compound": {
+    "ammoTypes": {
+      "blast-compound": {
             "speed": 3,
             "type":"ArtilleryBulletType",
             "damage": 30,
-            "lifetime": 400,
+            "lifetime": 270,
             "splashDamageRadius": 55,
             "splashDamage": 60,
             "width": 10,
@@ -51,7 +51,7 @@
             "speed": 5,
             "type":"ArtilleryBulletType",
             "damage": 50,
-            "lifetime": 375,
+            "lifetime": 250,
             "splashDamageRadius": 30,
             "splashDamage": 70,
             "width": 10,
@@ -72,7 +72,7 @@
             "speed": 3,
             "type":"ArtilleryBulletType",
             "damage": 20,
-            "lifetime": 375,
+            "lifetime": 250,
             "splashDamageRadius": 80,
             "splashDamage": 30,
             "width": 12,

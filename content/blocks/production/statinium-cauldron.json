@@ -13,7 +13,7 @@
       {
         "type": "DrawGlowRegion",
         "suffix": "-magma",
-        "color": "ff9b35",
+        "color": "DBA60C",
         "layer": 31
       },
       {
@@ -32,36 +32,20 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "craftTime": 80,
+  "craftTime": 200,
   "itemCapacity": 15,
-  "craftEffect":  [
-    {
-    "effect": {
-      "interp": "pow3Out",
-      "sizeInterp": "linear",
-      "lifetime": 20,
-      "length": 4,
-      "particles": 12,
-      "sizeFrom": 2,
-      "sizeTo": 0,
-      "colorFrom": "ff9b35",
-      "colorTo": "F6A341"
-      }
-    }
-    ],
-  "updateEffect": "none",
   "consumes": {
-    "power": 5,
+    "power": 7,
     "items": {
       "items": [
-			"titanium/2",
-			"silicon/1",
-			"copper/2",
-			"lead/3"
+			"titanium/6",
+			"silicon/3",
+			"copper/6",
+			"lead/9"
 			]
     },
     "liquids": [
-      "water/0.5"
+      "water/1.5"
       ]
   },
   	"requirements": [

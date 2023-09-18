@@ -28,7 +28,7 @@
   "upgrades": [
     ["c-Multi", "d-Div"]
     ],
-  "time": 1080,
+  "constructTime": 1080,
   "category": "units",
   "research": "c-feigned-reconstructor"
 }
