@@ -72,8 +72,7 @@
     "power": 2.5
   },
   "shootType": {
-    "speed": 1,
-    "lifetime": 0.06,
+    "instantDisappear": true,
     "damage": 1600,
     "buildingDamageMultiplier": 10,
     "splashDamageRadius": 104, 

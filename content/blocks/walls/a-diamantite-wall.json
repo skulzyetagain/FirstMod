@@ -1,10 +1,10 @@
 {	
   "localizedName": "Diamantite Wall",
-  "description": "Protects structures from enemy projectiles. Takes reduced damage from being overrun, moderately armoured",
+  "description": "Protects structures from enemy projectiles. Takes reduced damage from being overrun, heavily armoured",
 	"type": "Wall",
 	"health": 1650,
 	"size": 1,
-	"armor": 25,
+	"armor": 17,
 	"crushDamageMultiplier": 0.2,
 	"requirements": [
 	  "diamantite/12",
