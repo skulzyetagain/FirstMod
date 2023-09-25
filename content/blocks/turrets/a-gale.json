@@ -20,7 +20,7 @@
         "speed": 5,
         "splashDamageRadius":60, 
         "splashDamage":1,
-        "knockback": 10,
+        "knockback": 8,
         "impact": true,
         "hitSize": 7,
         "lifetime": 20,
