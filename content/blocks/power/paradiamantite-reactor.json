@@ -10,7 +10,7 @@
   "explosionRadius": 240,
   "explosionDamage": 15000,
 	"hasLiquids": true,
-	"powerProduction": 183,
+	"powerProduction": 201,
 	"liquidCapacity": 35,
   "outputLiquid": "unstable-waste/0.2", 
   "explodeOnFull": true, 
@@ -25,7 +25,7 @@
        {
        "type": "DrawRegion",
        "suffix": "-spinner",
-       "rotateSpeed": -22.5
+       "rotateSpeed": -30
        },
        {
        "type": "DrawRegion",
@@ -44,19 +44,18 @@
 	},
   "research": "impact-reactor",
 	"requirements": [
-        "thorium/700",
-        "silicon/1500",
-        "diamantite/300",
-        "titanium/3000",
-        "lead/4550", 
-        "plastanium/2000",
-        "surge-alloy/800",
-        "metaglass/1000"
+        "thorium/200",
+        "silicon/150",
+        "diamantite/100",
+        "titanium/50",
+        "lead/700", 
+        "plastanium/100",
+        "surge-alloy/200",
+        "metaglass/200"
     ],
-    "buildCostMultiplier": 0.15,
 	"category": "power",
   "loopSound": "beam",
   "loopSoundVolume": 5,
 	"ambientSound": "hum",
-	"ambientSoundVolume": 0.5
+	"ambientSoundVolume": 2
 }
