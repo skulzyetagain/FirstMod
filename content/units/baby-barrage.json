@@ -1,0 +1,49 @@
+{
+  "name": "look guys! I'm pulling a Lixie!",
+  "description": "You fool! You really thought your “Biden Blast” could even scratch me?! BEHOLD; A TRUE BLAST!! ‡‡BABY†BARRAGE!‡‡",
+  "internal": true,
+  "hidden": true,
+  "drawBody": false,
+  "drawCell": false,
+  "useUnitCap": false,
+  "targetable": false,
+  "weapons": [
+    {
+      "reload": 600,
+      "alwaysShooting": true,
+      "shootSound": "none",
+      "bullet": {
+        "lifetime": 1,
+        "speed": 0,
+        "killShooter": true,
+        "fragLifeMin": 0.25,
+        "fragLifeMax": 1.2,
+        "fragVelocityMin": 0.75,
+        "fragVelocityMax": 1,
+        "fragBullets": 12,
+        "fragBullet":{
+          "type": "ArtilleryBulletType",
+          "inaccuracy": 360,
+          "splashDamage": 200,
+          "splashDamageRadius": 20,
+          "lifetime": 60,
+          "speed": 4,
+          "collidesAir": true,
+          "sprite": "duverxustitans-hive-child-bullet",
+          "hitSize": 8,
+          "puddleAmount": 10,
+          "puddles": 5,
+          "puddleRange": 4,
+          "puddleLiquid": "neoplasm",
+          "width": 8,
+          "height": 8,
+          "shrinkY": 0.3,
+          "shrinkX": 0.3,
+          "despawnUnit": "duverxustitans-hive-leech",
+          "backColor": "52453FFF",
+          "frontColor": "736D66FF"
+        }
+      }
+    }
+  ]
+}

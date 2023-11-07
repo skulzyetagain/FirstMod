@@ -1,0 +1,48 @@
+{
+  "name": "Hive leech",
+  "description": "Spawns of a matured hive mother, their instinct is to chew through any that threatens the Mother. Occasionally spits out acidic saliva",
+  "type": "crawl",
+  "controller": "HugAI",
+  "template": "NeoplasmUnitType",
+  "useUnitCap": false,
+  "health": 600,
+  "armor": 8,
+  "hitSize": 8,
+  "shadowElevationScl": 0.25,
+  "omniMovement": false,
+  "rotateSpeed": 1,
+  "speed": 1.4,
+  "crushDamage": 0.2,
+  "drawBody": false,
+  "segments": 3,
+  "segmentMag": 0.8,
+  "segmentPhase": 2,
+  "segmentMaxRot": 60,
+  "segmentScl": 1.7,
+  "weapons":  [
+    {
+      "reload": "180",
+      "x": 0,
+      "y": 0,
+      "shootY": 2,
+      "mirror": false,
+      "shootCone": 180,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 70,
+        "lifetime": 15,
+        "speed": 5,
+        "width": 4,
+        "height": 8,
+        "status": "corroded",
+        "statusDuration": 120,
+        "frontColor": "plastaniumBack",
+        "backColor": "plastanium",
+        "trailColor": "plastanium",
+        "trailChance": 40,
+        "trailLength": 16,
+        "trailWidth": 3
+      }
+    }
+    ]
+}

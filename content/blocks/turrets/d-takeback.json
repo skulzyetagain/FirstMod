@@ -1,0 +1,112 @@
+{
+  "localizedName": "Takeback",
+  "description": "Fires a harpoon that reels enemies in. Uses Nitrogen as a propellant. [#346A7C]That Bastard has to still be alive.",
+    "type": "LiquidTurret",
+    "size": 4,
+    "health": -1,
+    "range": 160,
+    "reload": 55,
+    "shootY": 5.25,
+    "shootX": 3,
+    "ammoPerShot": 3,
+    "drawer": {
+      "type": "drawTurret",
+      "basePrefix": "reinforced-",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-wire-back",
+          "moveX": -6.25,
+          "progress": "warmup"
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-wires",
+          "x": 1,
+          "moveX": -6.25,
+          "progress": "warmup",
+          "moves": [
+            {
+              "type": "PartMove",
+              "moveX": 5.25,
+              "progress": "recoil"
+            }
+          ]
+        },
+        {
+          "type": "RegionPart"
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-cylinder",
+          "moveX": 2,
+          "progress": "warmup",
+          "moves": [
+            {
+              "type": "PartMove",
+              "moveX": -2,
+              "progress": "recoil"
+            }
+          ]
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-top"
+        }
+      ]
+    },
+    "shootSound": "none",
+    "liquidCapacity": 15,
+    "ammoTypes": {
+      "nitrogen": {
+        "type": "BasicBulletType",
+        "damage": 50,
+        "speed": 5,
+        "knockback": -20,
+        "hitSize": 7,
+        "lifetime": 40,
+        "status": "unmoving",
+        "statusDuration": 60,
+        "pierce": true,
+        "collidesAir": true,
+        "despawnEffect": "none",
+        "sprite": "duverxustitans-harpoon",
+        "frontColor": "B0BAC0",
+        "backColor": "989AA4",
+        "width": 16,
+        "height": 24,
+        "shrinkY": 0,
+        "fragAngle": 0,
+        "fragRandomSpread": 0,
+        "fragLifeMin": 1,
+        "fragLifeMax": 1,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "fragBullets": 1,
+        "fragBullet": {
+          "damage": 0,
+          "speed": -20,
+          "hitSize": 0,
+          "lifetime": 10,
+          "sprite": "duverxustitans-harpoon",
+          "frontColor": "B0BAC0",
+          "backColor": "989AA4",
+          "width": 16,
+          "height": 24,
+          "shrinkY": 0,
+          "status": "hooked",
+          "statusDuration": 60,
+          "pierce": true,
+          "collidesAir": true,
+          "despawnEffect": "none"
+        }
+      }
+    },
+    "requirements": [
+      "beryllium/100",
+      "tungsten/50",
+      "silicon/50",
+      "graphite/25"
+      ],
+    "category": "turret"
+}

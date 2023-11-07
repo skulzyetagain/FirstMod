@@ -1,0 +1,154 @@
+{
+  "name": "Hive Mother",
+  "description": "Neoplasm hive that spurts out leeches. Once destroyed it shoots out a few final leeches.",
+  "type": "legs",
+  "template": "NeoplasmUnitType",
+  "parts": [
+    {
+      "type": "RegionPart",
+      "layerOffset": 0
+    },
+    {
+      "type": "RegionPart",
+      "suffix": "-top",
+      "layerOffset": 0.2,
+      "outline": false
+    },
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layerOffset": 0.2,
+      "color": "C571C9",
+      "blending": "additive",
+      "outline": false
+    }
+    ],
+  "useUnitCap": false,
+  "health": 29000,
+  "armor": 26,
+  "hitSize": 36,
+  "rotateSpeed": 0.9,
+  "speed": 0.7,
+  "stepShake": 2,
+  "rippleScale": 4,
+  "range": 152,
+  "strafePenalty": 0.25,
+  "targetPriority": 3,
+  "allowLegStep": true,
+  "drawShields": false,
+  "lightColor": "C571C900",
+  "deathSound": "hive-mother-death",
+  "rotateMoveFirst": true,
+  "legCount": 6,
+  "legGroupSize": 3,
+  "legSpeed": 0.2,
+  "legBaseOffset": 16,
+  "legLength": 21,
+  "legExtension": 2,
+  "legPairOffset": 1,
+  "legLengthScl": 1.5,
+  "legMinLength": 0.5,
+  "baseLegStraightness": 0.5,
+  "legSplashDamage": 64,
+  "legSplashRange": 16,
+  "legContinuousMove": true,
+  "lockLegBase": true,
+  "abilities": [
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "spread": 0,
+    "unit": "duverxustitans-baby-barrage"
+  },
+  {
+    "type": "RegenAbility",
+    "percentAmount": 0.0125
+  },
+  {
+    "type": "LiquidExplodeAbility",
+    "liquid": "neoplasm",
+    "amount": 180
+  }
+  ],
+  "weapons": [
+    {
+      "reload": 5184000,
+      "alwaysShooting": true,
+      "shootSound": "hive-mother-spawn",
+      "shake": 200,
+      "shootCone": 30,
+      "bullet": {
+        "damage": 0,
+        "instantDisappear": true,
+        "fragSpread": 3,
+        "fragRandomSpread": 0,
+        "fragLifeMin": 1,
+        "fragLifeMax": 1,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "fragBullets": 120,
+        "fragBullet": {
+          "hitSize": 80,
+          "impact": true,
+          "pierce": true,
+          "collidesGround": true,
+          "hitEffect": "none",
+          "hitSound": "none",
+          "despawnEffect": "none",
+          "damage": 0,
+          "lifetime": 100,
+          "speed": 80,
+          "status": "neoplastic-fear",
+          "statusDuration": 180,
+          "width": 0,
+          "height": 0
+        }
+      }
+    },
+    {
+      "name": "hive-mother-babyshooter",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "moveY": 5,
+          "layerOffset": 0.1,
+          "progress": "warmup"
+        }
+        ],
+      "reload": 180,
+      "rotate": false,
+      "layerOffset": 0.1,
+      "x": -5,
+      "y": 0.75,
+      "mirror": false,
+      "shootY": 12.25,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 20
+      },
+      "shootSound": "shootBig",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "inaccuracy": 2.5,
+        "splashDamage": 200,
+        "splashDamageRadius": 20,
+        "lifetime": 80,
+        "speed": 4,
+        "collidesAir": true,
+        "sprite": "duverxustitans-hive-child-bullet",
+        "hitSize": 8,
+        "puddleAmount": 10,
+        "puddles": 5,
+        "puddleRange": 4,
+        "puddleLiquid": "neoplasm",
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0.3,
+        "shrinkX": 0.3,
+        "despawnUnit": "duverxustitans-hive-leech",
+        "backColor": "52453FFF",
+        "frontColor": "736D66FF"
+      }
+    }
+    ]
+}
