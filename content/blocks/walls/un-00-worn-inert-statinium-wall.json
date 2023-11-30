@@ -1,0 +1,14 @@
+{
+  "localizedName": "Worn Inert Statinium Wall",
+  "description": "Old statinium wall, having lost its charge. Barely recyclable.",
+  "type": "Wall",
+  "health": 325,
+  "size": 1,
+  "variants": 5,
+  "requirements": [
+    "scrap/6",
+    "statinium/2" 
+  ],
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}

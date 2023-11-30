@@ -1,0 +1,14 @@
+{
+  "localizedName": "Worn Inert Large Statinium Wall",
+  "description": "Old large statinium wall, having lost its charge. Similar design to the Serpulo varient. Barely recyclable.",
+  "type": "Wall",
+  "health": 1300,
+  "size": 2,
+  "variants": 3,
+  "requirements": [
+    "scrap/24",
+    "statinium/8" 
+  ],
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}
