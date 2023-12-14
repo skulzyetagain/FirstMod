@@ -1,0 +1,25 @@
+{
+  "name": "Survival",
+  "description": "The small vessel that carried you, launched by the [#5B001B] Caller [#BFBFBF]. The diamantite casing has been completely eviscerated and the statinium is beyond salvaging. It can only withhold for so long, research a proper core immediately.",
+  "type": "CoreBlock",
+  "isFirstTier": true,
+  "unitType": "rosamachina-un-0z-mfs",
+  "health": 5,
+  "armor": 1000000,
+  "itemCapacity": 200,
+  "size": 2,
+	"squareSprite": false,
+  "unitCapModifier": 3,
+  "research": {
+    "block": "unowen-caller",
+    "planet": "unowen",
+    "root": true
+  },
+  "requirements":[
+    "data-drive/1",
+    "statinium/750",
+    "diamantite/1000",
+    "thorium/500",
+    "blast-compound/3000"
+  ]
+}

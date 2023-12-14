@@ -1,0 +1,19 @@
+{
+  "name": "M.F.S.",
+  "description": "Multi-Functional Ship. A vessel used by the [#5B001B]Caller[#BFBFBF] to defend the Survival core. Though fragile, it does its job.",
+  "type": "mech",
+  "canBoost": true,
+  "boostMultiplier": 0.5,
+  "controller": "BuildAI",
+  "isEnemy": false,
+  "health": 50,
+  "armor": -15,
+  "speed": 4,
+  "itemCapacity": 5,
+  "mineSpeed": 2,
+  "buildSpeed": 0.25,
+  "hitSize": 6,
+  "mineTier": 2,
+  "alwaysUnlocked": true,
+  "mechSideSway": 0.15
+}

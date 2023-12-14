@@ -1,0 +1,9 @@
+{
+  "name": "Data Drive",
+  "frames": 16,
+  "frameTime": 4,
+  "color": "465A9C",
+  "research": {
+    "parent": "phase-fabric"
+  }
+}

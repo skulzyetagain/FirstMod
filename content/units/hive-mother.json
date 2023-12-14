@@ -58,7 +58,7 @@
     "type": "SpawnDeathAbility",
     "amount": 1,
     "spread": 0,
-    "unit": "duverxustitans-baby-barrage"
+    "unit": "rosamachina-baby-barrage"
   },
   {
     "type": "RegenAbility",
@@ -135,7 +135,7 @@
         "lifetime": 80,
         "speed": 4,
         "collidesAir": true,
-        "sprite": "duverxustitans-hive-child-bullet",
+        "sprite": "rosamachina-hive-child-bullet",
         "hitSize": 8,
         "puddleAmount": 10,
         "puddles": 5,
@@ -145,7 +145,7 @@
         "height": 8,
         "shrinkY": 0.3,
         "shrinkX": 0.3,
-        "despawnUnit": "duverxustitans-hive-leech",
+        "despawnUnit": "rosamachina-hive-leech",
         "backColor": "52453FFF",
         "frontColor": "736D66FF"
       }

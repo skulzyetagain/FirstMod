@@ -1,0 +1,18 @@
+{
+  "name": "[#5B001B]Caller",
+  "description": "[#5B001B]DESTINATION [#706864 ]UNOWEN                                     [#BFBFBF]Launches a core to its designated planet. Locked to a specific sector.",
+  "type": "Accelerator",
+  "category": "effect",
+  "size": 10,
+	"squareSprite": false,
+  "itemCapacity": 2000,
+  "consumes": {
+    "power": 20,
+    "items": {
+      "items": [
+        "statinium/1000",
+        "diamantite/2000"
+      ]
+    }
+  }
+}
