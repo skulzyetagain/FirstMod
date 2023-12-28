@@ -2,6 +2,7 @@
   "localizedName": "Div",
   "description": "... To divide your foes into several pieces",
     "research": {
+    "block": "d-spurious-reconstructor",
     "parent": "c-Multi",
     "requirements": [
       "silicon/1000",

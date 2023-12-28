@@ -2,6 +2,7 @@
   "localizedName": "Sub",
   "description": "... To subtract delicacies from yourself and fight head-on",
   "research": {
+    "block": "b-artificial-reconstructor",
     "parent": "a-Add",
     "requirements": [
     "spore-pod/160,",

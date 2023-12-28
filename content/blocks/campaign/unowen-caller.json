@@ -1,18 +1,43 @@
 {
   "name": "[#5B001B]Caller",
-  "description": "[#5B001B]DESTINATION [#706864 ]UNOWEN                                     [#BFBFBF]Launches a core to its designated planet. Locked to a specific sector.",
-  "type": "Accelerator",
+  "description": "[#5B001B]DESTINATION: [#706864 ]UNOWEN                                     [#BFBFBF]Launches a core to its designated planet. Locked to a specific sector.",
+  "type": "GenericCrafter",
   "category": "effect",
   "size": 10,
 	"squareSprite": false,
-  "itemCapacity": 2000,
+  "itemCapacity": 6000,
+  "craftTime": 3600,
   "consumes": {
     "power": 20,
     "items": {
       "items": [
-        "statinium/1000",
-        "diamantite/2000"
+        "statinium/3000",
+        "diamantite/6000",
+        "diamtonium/3000",
+        "surge-alloy/1000",
+        "thorium/1500",
+        "blast-compound/500"
       ]
     }
-  }
+  },
+  "outputItems": [
+    "data-drive/1"
+  ],
+  "requirements": [
+    "diamantite/11000",
+    "statinium/6000",
+    "phase-fabric/3000",
+    "surge-alloy/5000",
+    "thorium/5000",
+    "titanium/3000",
+    "silicon/13001",
+    "graphite/2000"
+  ],
+  "research": "launch-pad",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "Planetary-Launch-Terminal"
+    }
+  ]
 }

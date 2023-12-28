@@ -2,6 +2,7 @@
   "localizedName": "Multi",
   "description": "... To multiply your firepower and overwhelm the strongest",
     "research": {
+    "block": "c-feigned-reconstructor",
     "parent": "b-Sub",
     "requirements": [
     "silicon/500",

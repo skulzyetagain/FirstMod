@@ -1,5 +1,5 @@
 {
-  "name": "Survival",
+  "name": "Core: Survival",
   "description": "The small vessel that carried you, launched by the [#5B001B] Caller [#BFBFBF]. The diamantite casing has been completely eviscerated and the statinium is beyond salvaging. It can only withhold for so long, research a proper core immediately.",
   "type": "CoreBlock",
   "isFirstTier": true,
@@ -11,15 +11,11 @@
 	"squareSprite": false,
   "unitCapModifier": 3,
   "research": {
+    "item": "data-drive",
     "block": "unowen-caller",
     "planet": "unowen",
+    "alwaysUnlocked": "true",
     "root": true
   },
-  "requirements":[
-    "data-drive/1",
-    "statinium/750",
-    "diamantite/1000",
-    "thorium/500",
-    "blast-compound/3000"
-  ]
+  "category": "effect"
 }
