@@ -1,6 +1,6 @@
 {
   "name": "[#5B001B]Caller",
-  "description": "[#5B001B]DESTINATION: [#706864 ]UNOWEN                                     [#BFBFBF]Launches a core to its designated planet. Locked to a specific sector.",
+  "description": "[#5B001B]DESTINATION: [#706864]UNOWEN                                     [#BFBFBF]Launches a core to its designated planet. Locked to a specific sector.",
   "type": "GenericCrafter",
   "category": "effect",
   "size": 10,
