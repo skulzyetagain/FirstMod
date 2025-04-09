@@ -1,0 +1,8 @@
+{
+  "localizedName": "Clay",
+  "description": "Plastic soil with metals within it. Useful for construction.",
+  "color": "7B5E6C",
+  "research": {
+    "parent": "un-00-core-survival"
+  }
+}

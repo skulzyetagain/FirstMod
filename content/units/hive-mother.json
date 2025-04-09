@@ -3,6 +3,9 @@
   "description": "Neoplasm hive that spurts out leeches. Once destroyed it shoots out a few final leeches.",
   "type": "legs",
   "template": "NeoplasmUnitType",
+  "targetPriority": {
+    "core": -4
+  },
   "parts": [
     {
       "type": "RegionPart",
